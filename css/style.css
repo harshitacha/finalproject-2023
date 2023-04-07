@@ -1,0 +1,133 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#content li a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.skip a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    display: flex;
+}
+
+nav li{
+    display: inline;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+a:visited{
+    color: black;
+}
+
+.gallery{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery img{
+    grid-column: span 1;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px #ccc;
+}
+
+#pics{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#begin{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+}
+
+#begin img{
+    border-radius: 10px;
+    margin-top: 5em;
+}
+
+#begin #intro{
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+#bullets{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#bullets #facts{
+    margin-bottom: 2px;
+}
+
+#bullets #list{
+    align-items: center;
+    border: 5px #48B0D7 solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#general{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 10px;
+    border: 5px #DB5FB5 solid; 
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+#general #besties{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#general #besties img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#general #spotify{
+    display: flex;
+    flex-direction: column;
+}
+
+#spotify #playlists{
+    display: flex;
+}
+#spotify #playlists img{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#general h2{
+    text-align: center;
+}
+
+#fun{
+    text-align: center;
+}
+
